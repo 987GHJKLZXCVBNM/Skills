@@ -1,0 +1,153 @@
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 25px;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+    font-weight: 700;
+}
+
+a:hover {
+    color: black;
+}
+
+header {
+    border-bottom: 1px solid #828282;
+    height: 90px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    height: 183px;
+    align-items: center;
+}
+
+.text1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.text2 {
+    writing-mode: vertical-lr;
+    font-weight: 700;
+}
+
+span {
+    color: #828282;
+}
+
+.aboutme {
+    height: 506px;
+    background: #F6F6F6;
+    text-align: center;
+    margin-top: 104px;
+    margin-bottom: 91px;
+    padding-top: 120px;
+    line-height: 2;
+}
+
+.skills {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 88px;
+    padding-top: 88px;
+}
+
+.text_under {
+    padding-top: 69px;
+}
+
+.portfolio {
+    height: 2270px;
+    background: #F6F6F6;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 91px;
+    padding-top: 120px;
+}
+
+
+.img2 {
+    padding-top: 47px;
+}
+
+.txt {
+    padding-top: 47px;
+    padding-bottom: 99px;
+}
+
+.contacts {
+    height: 500px;
+    text-align: center;
+}
+
+.button {
+    padding-top: 15px;
+}
+
+.social_network {
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+
+.contacts p {
+    color: #828282;
+    font-size: 14px;
+}
+
+.button_contacts {
+    text-align: center;
+    padding-top: 29px;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 15px;
+    border-color: black;
+    background: black;
+}
+
+.button:hover {
+    color: #828282;
+}
+
+.social_network {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 342px;
+    padding-top: 30px;
+    padding-left: 300px;
+}
